@@ -3,4 +3,6 @@ project(lc)
 
 set(CMAKE_CXX_STANDARD 11)
 
+add_subdirectory(array)
+
 add_executable(lc main.cpp)
