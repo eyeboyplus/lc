@@ -1,2 +1,3 @@
 add_executable(two_num two_num.cpp)
 add_executable(remove_duplicates_from_sorted_array remove_duplicates_from_sorted_array.cpp)
+add_executable(remove_element remove_element.cpp)
