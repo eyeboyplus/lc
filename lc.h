@@ -5,6 +5,8 @@
 #ifndef LC_LC_H
 #define LC_LC_H
 
+#include <climits>
+
 #include <unordered_map>
 #include <vector>
 #include <iostream>
