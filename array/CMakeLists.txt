@@ -8,3 +8,7 @@ add_executable(best_time_to_buy_and_sell_stock best_time_to_buy_and_sell_stock.c
 add_executable(best_time_to_buy_and_sell_stock_ii best_time_to_buy_and_sell_stock_ii.cpp)
 add_executable(majority_element majority_element.cpp)
 add_executable(two_sum_ii two_sum_ii.cpp)
+add_executable(rotate_array rotate_array.cpp)
+add_executable(contains_duplicate contains_duplicate.cpp)
+add_executable(contains_duplicate_ii contains_duplicate_ii.cpp)
+add_executable(three_sum_closest three_sum_closest.cpp)
