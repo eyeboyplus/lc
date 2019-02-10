@@ -5,5 +5,8 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(array)
 add_subdirectory(greedy)
+add_subdirectory(dp)
+add_subdirectory(list)
+add_subdirectory(tree)
 
 add_executable(lc main.cpp)
