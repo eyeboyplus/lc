@@ -1,0 +1,2 @@
+add_executable(longest_palindromic_substring longest_palindromic_substring.cpp)
+add_executable(decode_ways decode_ways.cpp)
