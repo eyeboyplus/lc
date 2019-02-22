@@ -1,2 +1,4 @@
 add_executable(longest_palindromic_substring longest_palindromic_substring.cpp)
 add_executable(decode_ways decode_ways.cpp)
+add_executable(unique_binary_search_trees_ii unique_binary_search_trees_ii.cpp)
+add_executable(word_break word_break.cpp)
