@@ -6,6 +6,7 @@
 #define LC_LC_H
 
 #include <climits>
+#include <cmath>
 
 #include <string>
 #include <iostream>

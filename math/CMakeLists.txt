@@ -1,0 +1,1 @@
+add_executable(happy_number happy_number.cpp)
