@@ -1,0 +1,7 @@
+add_executable(longest_common_prefix longest_common_prefix.cpp)
+add_executable(valid_parentheses valid_parentheses.cpp)
+add_executable(valid_palindrome valid_palindrome.cpp)
+add_executable(longest_substring_without_repeating_characters longest_substring_without_repeating_characters.cpp)
+add_executable(simplify_path simplify_path.cpp)
+add_executable(reverse_words_in_a_string reverse_words_in_a_string.cpp)
+add_executable(basic_calculator_ii basic_calculator_ii.cpp)
