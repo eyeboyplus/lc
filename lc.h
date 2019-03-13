@@ -12,6 +12,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <unordered_set>
+#include <map>
 #include <vector>
 #include <algorithm>
 #include <stack>
@@ -38,13 +39,29 @@ struct Node {
     Node *left;
     Node *right;
     Node *next;
+
+    Node* random;
+
     Node() {}
+
+    Node(int _val, Node* _next, Node* _random) {
+        val = _val;
+        next = _next;
+        random = _random;
+    }
     Node(int _val, Node* _left, Node *_right, Node* _next) {
         val = _val;
         left = _left;
         right = _right;
         next = _next;
     }
+};
+
+struct Point {
+    int x;
+    int y;
+    Point() : x(0), y(0) {}
+    Point(int a, int b) : x(a), y(b) {}
 };
 
 #endif //LC_LC_H

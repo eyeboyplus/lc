@@ -10,5 +10,6 @@ add_subdirectory(list)
 add_subdirectory(tree)
 add_subdirectory(math)
 add_subdirectory(string)
+add_subdirectory(hashtable)
 
 add_executable(lc main.cpp)
