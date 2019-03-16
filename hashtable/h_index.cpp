@@ -1,20 +1,21 @@
 #include "./../lc.h"
 
 int solution(vector<int> &citations) {
-    sort(citations.begin(), citations.end());
-    int length = citations.size();
-
-    int ret = INT_MIN;
-    for(int N = 0; N <= length; N++) {
-        int h;
-        if(N == 0)
-            h = citations[length - 1] + 1;
+    int n = citations.size();
+    vector<int> buckets(n + 1, 0);
+    for(int c : citations) {
+        if(c >= n)
+            buckets[n] ++;
         else
-            h = citations[length - N];
-        if(length - N - 1 >= 0 && citations[length - N - 1] < h)
-            ret = max(ret, h);
+            buckets[c] ++;
     }
-    return ret;
+    int cnt = 0;
+    for(int i = n; i >= 0; i--) {
+        cnt += buckets[i];
+        if(cnt >= i)
+            return i;
+    }
+    return 0;
 }
 
 int main(int argc, char **argv) {

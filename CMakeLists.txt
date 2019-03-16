@@ -11,5 +11,6 @@ add_subdirectory(tree)
 add_subdirectory(math)
 add_subdirectory(string)
 add_subdirectory(hashtable)
+add_subdirectory(dfs)
 
 add_executable(lc main.cpp)

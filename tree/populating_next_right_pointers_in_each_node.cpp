@@ -20,6 +20,22 @@ Node* solution(Node *root) {
     return root;
 }
 
+Node* solution_1(Node *root) {
+    Node *level_start = root;
+    while(level_start != nullptr) {
+        TreeNode *ptr = level_start;
+        while(ptr) {
+            if(ptr->left != nullptr)
+                ptr->left->next = ptr->right;
+            if(ptr->right && ptr->next)
+                    ptr->right->next = ptr->next->left;
+            ptr = ptr->next;
+        }
+        level_start = level_start->left;
+    }
+    return root;
+}
+
 int main(int argc, char **argv) {
     
     std::cout << "done.";
