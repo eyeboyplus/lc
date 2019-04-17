@@ -1,0 +1,8 @@
+add_executable(test01 test01.cpp)
+add_executable(test02 test02.cpp)
+add_executable(test03 test03.cpp)
+add_executable(test04 test04.cpp)
+add_executable(test05 test05.cpp)
+add_executable(test07 test07.cpp)
+add_executable(test08 test08.cpp)
+add_executable(test09 test09.cpp)

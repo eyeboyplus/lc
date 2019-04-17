@@ -1,1 +1,2 @@
 add_executable(linked_list_cycle_ii linked_list_cycle_ii.cpp)
+add_executable(rotate_list rotate_list.cpp)
