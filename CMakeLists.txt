@@ -14,5 +14,7 @@ add_subdirectory(hashtable)
 add_subdirectory(dfs)
 add_subdirectory(two_pointer)
 add_subdirectory(test)
+add_subdirectory(stack)
+add_subdirectory(backtracking)
 
 add_executable(lc main.cpp)

@@ -1,0 +1,2 @@
+add_executable(basic_calculator basic_calculator.cpp)
+add_executable(simplify_path_stk simplify_path.cpp)
