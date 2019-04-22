@@ -1,0 +1,4 @@
+add_executable(lru_cache lru_cache.cpp)
+add_executable(implement_trie implement_trie.cpp)
+add_executable(add_and_search_word add_and_search_word.cpp)
+add_executable(find_median_from_data_stream find_median_from_data_stream.cpp)

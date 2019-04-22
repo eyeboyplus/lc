@@ -16,5 +16,6 @@ add_subdirectory(two_pointer)
 add_subdirectory(test)
 add_subdirectory(stack)
 add_subdirectory(backtracking)
+add_subdirectory(design)
 
 add_executable(lc main.cpp)
